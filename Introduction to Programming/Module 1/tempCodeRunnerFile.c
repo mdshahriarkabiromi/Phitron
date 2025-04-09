@@ -1,1 +1,1 @@
-getchar();
+#include<stdio.h>
