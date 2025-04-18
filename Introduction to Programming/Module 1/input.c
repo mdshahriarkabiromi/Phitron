@@ -20,12 +20,29 @@
 //     printf("Integer is %d, float is %f, character is %c\n", a, b, c);
 //     return 0;
 // }
+// int main()
+// {
+// int i = 5;
+// while(i<10)
+// {
+// printf("i");
+// i++;
+// }
+// }
+
+#include<stdio.h>
 int main()
 {
-int i = 5;
-while(i<10)
-{
-printf("i");
-i++;
-}
+    int myNum;
+
+    // Ask the user to type a number
+    printf("Type a number: \n");
+    
+    // Get and save the number the user types
+    scanf("%d", &myNum);
+    
+    // Output the number the user typed
+    printf("Your number is: %d", myNum);
+
+    return 0;
 }
