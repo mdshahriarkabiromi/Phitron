@@ -11,8 +11,8 @@ int main()
     printf("How many would you like?:");
     scanf("%d",&amount);
     printf("\n");
-    printf("You have brought %d pizza\n",amount);
-    printf("The total is : %.2f\n",price*amount);
+    printf("You have brought %d %s\n",amount,item);
+    printf("The total is : $%.2f\n",price*amount);
 
 
 
