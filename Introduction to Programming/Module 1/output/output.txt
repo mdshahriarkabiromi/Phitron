@@ -1,0 +1,2 @@
+This is a code for writing a file
+Later I will read a file
