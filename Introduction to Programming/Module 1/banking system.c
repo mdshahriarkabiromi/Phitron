@@ -62,7 +62,7 @@ int main()
         printf("\n");
         printf("Enter your choice: \n");
         scanf("%d",&choice);
-        
+        //choice
         if(choice==1)
         {
             checkBalance(balance);
